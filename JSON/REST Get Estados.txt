@@ -1,0 +1,1115 @@
+[
+	{
+		"id": 34,
+		"estado": "Minas Gerais",
+		"cidades": [
+			{
+				"id": 2,
+				"municipio": "Diamantina",
+				"estado": "Minas Gerais"
+			},
+			{
+				"id": 18,
+				"municipio": "Belo Horizonte",
+				"estado": "Minas Gerais"
+			},
+			{
+				"id": 19,
+				"municipio": "Congonhas do Campo",
+				"estado": "Minas Gerais"
+			},
+			{
+				"id": 57,
+				"municipio": "Ouro Preto",
+				"estado": "Minas Gerais"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			},
+			{
+				"id": 6,
+				"bioma": "Cerrado",
+				"clima": "Tropical sazonal",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					},
+					{
+						"id": 43,
+						"bioma": "Caatinga",
+						"clima": "Tropical Semiárido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 45,
+		"estado": "Paraná",
+		"cidades": [
+			{
+				"id": 33,
+				"municipio": "Foz do Iguaçu",
+				"estado": "Paraná"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 48,
+		"estado": "Goiás",
+		"cidades": [
+			{
+				"id": 35,
+				"municipio": "Cidade de Goiás",
+				"estado": "Goiás"
+			},
+			{
+				"id": 30,
+				"municipio": "Brasilia",
+				"estado": "Goiás"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 6,
+				"bioma": "Cerrado",
+				"clima": "Tropical sazonal",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					},
+					{
+						"id": 43,
+						"bioma": "Caatinga",
+						"clima": "Tropical Semiárido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 49,
+		"estado": "Pernambuco",
+		"cidades": [
+			{
+				"id": 40,
+				"municipio": "Fernando de Noronha",
+				"estado": "Pernambuco"
+			},
+			{
+				"id": 28,
+				"municipio": "Olinda",
+				"estado": "Pernambuco"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			},
+			{
+				"id": 43,
+				"bioma": "Caatinga",
+				"clima": "Tropical Semiárido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 50,
+		"estado": "Maranhão",
+		"cidades": [
+			{
+				"id": 14,
+				"municipio": "São Luiz",
+				"estado": "Maranhão"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 37,
+				"bioma": "Amazônia",
+				"clima": "Equatorial",
+				"aguaTermal": false,
+				"praiaFluvial": false,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 6,
+						"bioma": "Cerrado",
+						"clima": "Tropical sazonal",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": false,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							},
+							{
+								"id": 43,
+								"bioma": "Caatinga",
+								"clima": "Tropical Semiárido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 36,
+										"bioma": "Mata Atlântica",
+										"clima": "Tropical úmido",
+										"aguaTermal": true,
+										"praiaFluvial": true,
+										"praia": true,
+										"quedaDagua": true,
+										"gruta": true,
+										"lago": true,
+										"turismoEcologicoOut": [
+											{
+												"id": 4,
+												"bioma": "Pampa",
+												"clima": "Temperado",
+												"aguaTermal": false,
+												"praiaFluvial": false,
+												"praia": true,
+												"quedaDagua": false,
+												"gruta": false,
+												"lago": true,
+												"turismoEcologicoOut": []
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 7,
+						"bioma": "Pantanal",
+						"clima": "Tropical continental",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": false,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 6,
+								"bioma": "Cerrado",
+								"clima": "Tropical sazonal",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": false,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 36,
+										"bioma": "Mata Atlântica",
+										"clima": "Tropical úmido",
+										"aguaTermal": true,
+										"praiaFluvial": true,
+										"praia": true,
+										"quedaDagua": true,
+										"gruta": true,
+										"lago": true,
+										"turismoEcologicoOut": [
+											{
+												"id": 4,
+												"bioma": "Pampa",
+												"clima": "Temperado",
+												"aguaTermal": false,
+												"praiaFluvial": false,
+												"praia": true,
+												"quedaDagua": false,
+												"gruta": false,
+												"lago": true,
+												"turismoEcologicoOut": []
+											}
+										]
+									},
+									{
+										"id": 43,
+										"bioma": "Caatinga",
+										"clima": "Tropical Semiárido",
+										"aguaTermal": true,
+										"praiaFluvial": true,
+										"praia": true,
+										"quedaDagua": true,
+										"gruta": true,
+										"lago": true,
+										"turismoEcologicoOut": [
+											{
+												"id": 36,
+												"bioma": "Mata Atlântica",
+												"clima": "Tropical úmido",
+												"aguaTermal": true,
+												"praiaFluvial": true,
+												"praia": true,
+												"quedaDagua": true,
+												"gruta": true,
+												"lago": true,
+												"turismoEcologicoOut": [
+													{
+														"id": 4,
+														"bioma": "Pampa",
+														"clima": "Temperado",
+														"aguaTermal": false,
+														"praiaFluvial": false,
+														"praia": true,
+														"quedaDagua": false,
+														"gruta": false,
+														"lago": true,
+														"turismoEcologicoOut": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 6,
+				"bioma": "Cerrado",
+				"clima": "Tropical sazonal",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					},
+					{
+						"id": 43,
+						"bioma": "Caatinga",
+						"clima": "Tropical Semiárido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 58,
+		"estado": "Rio Grande do Norte",
+		"cidades": [
+			{
+				"id": 10,
+				"municipio": "Natal",
+				"estado": "Rio Grande do Norte"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 43,
+				"bioma": "Caatinga",
+				"clima": "Tropical Semiárido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 104,
+		"estado": "Sergipe",
+		"cidades": [
+			{
+				"id": 60,
+				"municipio": "São Cristovão",
+				"estado": "Sergipe"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			},
+			{
+				"id": 43,
+				"bioma": "Caatinga",
+				"clima": "Tropical Semiárido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 105,
+		"estado": "Bahia",
+		"cidades": [
+			{
+				"id": 27,
+				"municipio": "Salvador",
+				"estado": "Bahia"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			},
+			{
+				"id": 6,
+				"bioma": "Cerrado",
+				"clima": "Tropical sazonal",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					},
+					{
+						"id": 43,
+						"bioma": "Caatinga",
+						"clima": "Tropical Semiárido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 43,
+				"bioma": "Caatinga",
+				"clima": "Tropical Semiárido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 106,
+		"estado": "Rio Grande do Sul",
+		"cidades": [
+			{
+				"id": 25,
+				"municipio": "São Miguel das Missões",
+				"estado": "Rio Grande do Sul"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 4,
+				"bioma": "Pampa",
+				"clima": "Temperado",
+				"aguaTermal": false,
+				"praiaFluvial": false,
+				"praia": true,
+				"quedaDagua": false,
+				"gruta": false,
+				"lago": true,
+				"turismoEcologicoOut": []
+			},
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 107,
+		"estado": "Piauí",
+		"cidades": [
+			{
+				"id": 38,
+				"municipio": "São Raimundo Nonato",
+				"estado": "Piauí"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 6,
+				"bioma": "Cerrado",
+				"clima": "Tropical sazonal",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					},
+					{
+						"id": 43,
+						"bioma": "Caatinga",
+						"clima": "Tropical Semiárido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 43,
+				"bioma": "Caatinga",
+				"clima": "Tropical Semiárido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 108,
+		"estado": "Rio de Janeiro",
+		"cidades": [
+			{
+				"id": 39,
+				"municipio": "Parati",
+				"estado": "Rio de Janeiro"
+			},
+			{
+				"id": 23,
+				"municipio": "Angra dos Reis",
+				"estado": "Rio de Janeiro"
+			},
+			{
+				"id": 31,
+				"municipio": "Rio de Janeiro",
+				"estado": "Rio de Janeiro"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			}
+		]
+	}
+]

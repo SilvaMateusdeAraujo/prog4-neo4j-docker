@@ -14,9 +14,7 @@ public class Cidade {
 	private Long id;
 	@Property
 	private String municipio;
-	
-	
-	
+	private String estado;
 	
 	
 	public Long getId() {
@@ -32,10 +30,18 @@ public class Cidade {
 		this.municipio = municipio;
 	}
 	
-	public Cidade(Long id, String municipio) {
+	
+	public String getEstado() {
+		return estado;
+	}
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+	public Cidade(Long id, String municipio, String estado) {
 		super();
 		this.id = id;
 		this.municipio = municipio;
+		this.estado = estado;
 	}
 	public Cidade() {
 		super();

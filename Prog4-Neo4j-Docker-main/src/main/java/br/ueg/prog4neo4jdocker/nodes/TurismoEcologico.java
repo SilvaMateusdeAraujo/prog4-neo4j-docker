@@ -1,8 +1,11 @@
 package br.ueg.prog4neo4jdocker.nodes;
 
+import java.util.List;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.neo4j.core.schema.GeneratedValue;
 import org.springframework.data.neo4j.core.schema.Node;
+import org.springframework.data.neo4j.core.schema.Relationship;
 
 @Node
 public class TurismoEcologico {
@@ -17,9 +20,15 @@ public class TurismoEcologico {
 	private boolean quedaDagua;
 	private boolean gruta;
 	private boolean lago;
+		
+	//@TODO declarar o tipo do relacionamento na variavel
+	@Relationship(type = "ADJACENTE_A", direction = Relationship.Direction.OUTGOING)
+	private List<TurismoEcologico> turismoEcologicoOut;
+	
+
 	
 	public TurismoEcologico(String bioma, String clima, boolean aguaTermal, boolean praia, boolean praiaFluvial,
-			boolean quedaDagua, boolean gruta, boolean lago) {
+			boolean quedaDagua, boolean gruta, boolean lago, List<TurismoEcologico> turismoEcologicoOut) {
 		super();
 		this.id = null;
 		this.bioma = bioma;
@@ -30,13 +39,14 @@ public class TurismoEcologico {
 		this.quedaDagua = quedaDagua;
 		this.gruta = gruta;
 		this.lago = lago;
+		this.turismoEcologicoOut = turismoEcologicoOut;
 	}
 
 	public TurismoEcologico withId(Long id) { 
         if (this.id.equals(id)) {
                 return this;
         } else {
-                TurismoEcologico newObject = new TurismoEcologico(this.bioma, this.clima, this.aguaTermal, this.praia, this.praiaFluvial, this.quedaDagua, this.gruta, this.lago);
+                TurismoEcologico newObject = new TurismoEcologico(this.bioma, this.clima, this.aguaTermal, this.praia, this.praiaFluvial, this.quedaDagua, this.gruta, this.lago, this.turismoEcologicoOut);
                 newObject.id = id;
                 return newObject;
         }
@@ -47,6 +57,17 @@ public class TurismoEcologico {
 		super();
 	}
 	
+	
+	public List<TurismoEcologico> getTurismoEcologicoOut() {
+		return turismoEcologicoOut;
+	}
+
+	public void setTurismoEcologicoOut(List<TurismoEcologico> turismoEcologicoOut) {
+		this.turismoEcologicoOut = turismoEcologicoOut;
+	}
+
+	
+
 	public Long getId() {
 		return id;
 	}

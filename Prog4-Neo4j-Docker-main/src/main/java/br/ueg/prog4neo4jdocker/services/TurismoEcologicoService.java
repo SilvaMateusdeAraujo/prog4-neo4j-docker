@@ -39,6 +39,8 @@ public class TurismoEcologicoService {
 		temporario.setQuedaDagua(turismoEcologico.isQuedaDagua());
 		temporario.setGruta(turismoEcologico.isGruta());
 		temporario.setLago(turismoEcologico.isLago());
+		temporario.setTurismoEcologicoOut(turismoEcologico.getTurismoEcologicoOut());
+		
 		return turismoEcologicoRepository.save(temporario);
 	}
 	

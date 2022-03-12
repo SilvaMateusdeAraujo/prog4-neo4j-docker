@@ -29,4 +29,12 @@ public class CidadeService {
 	public void deletaCidadePorId(long id) {
 		cidadeRepository.deleteById(id);
 	}
+	
+	public Cidade alteraCidade(long id, Cidade cidade) {
+		Cidade temporario = cidadeRepository.findById(id).get();
+		temporario.setId(id);
+		temporario.setMunicipio(cidade.getMunicipio());
+		temporario.setEstado(cidade.getEstado());
+		return cidadeRepository.save(temporario);
+	}
 }

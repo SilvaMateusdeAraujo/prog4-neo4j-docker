@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -39,5 +40,10 @@ public class CidadeController {
 	@DeleteMapping("/{id}")
 	public void deleteCidade(@PathVariable long id) {
 		cidadeService.deletaCidadePorId(id);
+	}
+	
+	@PatchMapping("/{id}")
+	public Cidade alteraCidade(@PathVariable long id, @RequestBody Cidade cidade) {
+		return cidadeService.alteraCidade(id, cidade);
 	}
 }

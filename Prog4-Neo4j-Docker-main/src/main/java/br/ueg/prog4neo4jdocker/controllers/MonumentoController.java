@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -50,4 +51,10 @@ public class MonumentoController {
 	public void deleteMonumento(@PathVariable long id) {
 		monumentoService.deletaMonumentoPorId(id);
 	}
+	
+	@PatchMapping("/{id}")
+	public Monumento alteraMonumento(@PathVariable long id, @RequestBody Monumento monumento) {
+		return monumentoService.alteraMonumentoPorId(id, monumento);
+	}
+	
 }

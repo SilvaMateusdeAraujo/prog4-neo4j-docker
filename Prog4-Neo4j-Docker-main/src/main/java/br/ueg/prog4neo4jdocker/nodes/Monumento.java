@@ -1,6 +1,5 @@
 package br.ueg.prog4neo4jdocker.nodes;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.data.neo4j.core.schema.GeneratedValue;
@@ -15,11 +14,12 @@ public class Monumento {
 	private Long id;
 	private String titulo;
 	private String descricao;
+	//@TODO alterar ano construção para inicio da construção ou data de inauguração
 	private int anoConstrucao;
 	
 	
 	@Relationship(type = "SITUADO_EM", direction = Relationship.Direction.OUTGOING)
-	private List<Cidade> cidades = new ArrayList<>();
+	private List<Cidade> cidades;
 	
 	
 	public Monumento(String titulo, String descricao, int anoConstrucao, List<Cidade> cidades) {

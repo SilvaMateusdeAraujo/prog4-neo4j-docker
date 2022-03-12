@@ -1,0 +1,92 @@
+[
+	{
+		"id": 2,
+		"municipio": "Diamantina",
+		"estado": "Minas Gerais"
+	},
+	{
+		"id": 10,
+		"municipio": "Natal",
+		"estado": "Rio Grande do Norte"
+	},
+	{
+		"id": 14,
+		"municipio": "São Luiz",
+		"estado": "Maranhão"
+	},
+	{
+		"id": 18,
+		"municipio": "Belo Horizonte",
+		"estado": "Minas Gerais"
+	},
+	{
+		"id": 19,
+		"municipio": "Congonhas do Campo",
+		"estado": "Minas Gerais"
+	},
+	{
+		"id": 23,
+		"municipio": "Angra dos Reis",
+		"estado": "Rio de Janeiro"
+	},
+	{
+		"id": 25,
+		"municipio": "São Miguel das Missões",
+		"estado": "Rio Grande do Sul"
+	},
+	{
+		"id": 27,
+		"municipio": "Salvador",
+		"estado": "Bahia"
+	},
+	{
+		"id": 28,
+		"municipio": "Olinda",
+		"estado": "Pernambuco"
+	},
+	{
+		"id": 30,
+		"municipio": "Brasilia",
+		"estado": "Goiás"
+	},
+	{
+		"id": 31,
+		"municipio": "Rio de Janeiro",
+		"estado": "Rio de Janeiro"
+	},
+	{
+		"id": 33,
+		"municipio": "Foz do Iguaçu",
+		"estado": "Paraná"
+	},
+	{
+		"id": 35,
+		"municipio": "Cidade de Goiás",
+		"estado": "Goiás"
+	},
+	{
+		"id": 38,
+		"municipio": "São Raimundo Nonato",
+		"estado": "Piauí"
+	},
+	{
+		"id": 39,
+		"municipio": "Parati",
+		"estado": "Rio de Janeiro"
+	},
+	{
+		"id": 40,
+		"municipio": "Fernando de Noronha",
+		"estado": "Pernambuco"
+	},
+	{
+		"id": 57,
+		"municipio": "Ouro Preto",
+		"estado": "Minas Gerais"
+	},
+	{
+		"id": 60,
+		"municipio": "São Cristovão",
+		"estado": "Sergipe"
+	}
+]

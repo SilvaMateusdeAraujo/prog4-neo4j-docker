@@ -1,0 +1,420 @@
+[
+	{
+		"id": 4,
+		"bioma": "Pampa",
+		"clima": "Temperado",
+		"aguaTermal": false,
+		"praiaFluvial": false,
+		"praia": true,
+		"quedaDagua": false,
+		"gruta": false,
+		"lago": true,
+		"turismoEcologicoOut": []
+	},
+	{
+		"id": 6,
+		"bioma": "Cerrado",
+		"clima": "Tropical sazonal",
+		"aguaTermal": true,
+		"praiaFluvial": true,
+		"praia": false,
+		"quedaDagua": true,
+		"gruta": true,
+		"lago": true,
+		"turismoEcologicoOut": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			},
+			{
+				"id": 43,
+				"bioma": "Caatinga",
+				"clima": "Tropical Semiárido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 7,
+		"bioma": "Pantanal",
+		"clima": "Tropical continental",
+		"aguaTermal": true,
+		"praiaFluvial": true,
+		"praia": false,
+		"quedaDagua": true,
+		"gruta": true,
+		"lago": true,
+		"turismoEcologicoOut": [
+			{
+				"id": 6,
+				"bioma": "Cerrado",
+				"clima": "Tropical sazonal",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					},
+					{
+						"id": 43,
+						"bioma": "Caatinga",
+						"clima": "Tropical Semiárido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 36,
+		"bioma": "Mata Atlântica",
+		"clima": "Tropical úmido",
+		"aguaTermal": true,
+		"praiaFluvial": true,
+		"praia": true,
+		"quedaDagua": true,
+		"gruta": true,
+		"lago": true,
+		"turismoEcologicoOut": [
+			{
+				"id": 4,
+				"bioma": "Pampa",
+				"clima": "Temperado",
+				"aguaTermal": false,
+				"praiaFluvial": false,
+				"praia": true,
+				"quedaDagua": false,
+				"gruta": false,
+				"lago": true,
+				"turismoEcologicoOut": []
+			}
+		]
+	},
+	{
+		"id": 37,
+		"bioma": "Amazônia",
+		"clima": "Equatorial",
+		"aguaTermal": false,
+		"praiaFluvial": false,
+		"praia": true,
+		"quedaDagua": true,
+		"gruta": true,
+		"lago": true,
+		"turismoEcologicoOut": [
+			{
+				"id": 6,
+				"bioma": "Cerrado",
+				"clima": "Tropical sazonal",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					},
+					{
+						"id": 43,
+						"bioma": "Caatinga",
+						"clima": "Tropical Semiárido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 7,
+				"bioma": "Pantanal",
+				"clima": "Tropical continental",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 6,
+						"bioma": "Cerrado",
+						"clima": "Tropical sazonal",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": false,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							},
+							{
+								"id": 43,
+								"bioma": "Caatinga",
+								"clima": "Tropical Semiárido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 36,
+										"bioma": "Mata Atlântica",
+										"clima": "Tropical úmido",
+										"aguaTermal": true,
+										"praiaFluvial": true,
+										"praia": true,
+										"quedaDagua": true,
+										"gruta": true,
+										"lago": true,
+										"turismoEcologicoOut": [
+											{
+												"id": 4,
+												"bioma": "Pampa",
+												"clima": "Temperado",
+												"aguaTermal": false,
+												"praiaFluvial": false,
+												"praia": true,
+												"quedaDagua": false,
+												"gruta": false,
+												"lago": true,
+												"turismoEcologicoOut": []
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 43,
+		"bioma": "Caatinga",
+		"clima": "Tropical Semiárido",
+		"aguaTermal": true,
+		"praiaFluvial": true,
+		"praia": true,
+		"quedaDagua": true,
+		"gruta": true,
+		"lago": true,
+		"turismoEcologicoOut": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			}
+		]
+	}
+]

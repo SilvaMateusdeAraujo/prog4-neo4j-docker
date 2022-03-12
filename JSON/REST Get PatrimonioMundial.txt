@@ -1,0 +1,800 @@
+[
+	{
+		"id": 0,
+		"sitio": "Reservas de Mata Atlântica do Sudeste",
+		"descricao": "Estas reservas estão situadas nos Estados de Paraná e São Paulo e oferecem um dos melhores e mais vastos exemplos do bosque atlântico brasileiro. As 25 zonas protegidas que formam o sítio somam uma superfície de 470.000 hectares e ilustram a riqueza biológica e a evolução dos últimos vestígios do mata atlântica. Desde as montanhas cobertas por tupidos bosques até os pântanos e ilhas costeiras com montanhas e dunas asiladas, o meio natural extremadamente rico deste sitio vem sempre unido a panoramas de uma grande beleza.",
+		"anoInscricao": 1999,
+		"patrimonioMundialNatural": true,
+		"patrimonioMundialCultural": false,
+		"cidades": [],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 1,
+		"sitio": "Paisagem Cultural do Rio de Janeiro",
+		"descricao": "O resultado é a consequência de um estudo minucioso do Iphan em que se avaliou a forma criativa com que o habitante se adaptou aos elementos naturais que inspiraram o desenvolvimento urbano da cidade. A paisagem carioca é a imagem mais explícita do que podemos chamar de civilização brasileira, com sua originalidade, desafios, contradições e possibilidades. A classificação inclui o Parque Nacional da Tijuca, o Jardim Botânico, o Corcovado e as montanhas em torno da Baía de Guanabara.",
+		"anoInscricao": 2012,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 31,
+				"municipio": "Rio de Janeiro",
+				"estado": "Rio de Janeiro"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 5,
+		"sitio": "Ilhas Atlânticas Brasileiras: Reservas de Fernando de Noronha e Atol das Rocas",
+		"descricao": "Cimas da grande dorsal submarina do Atlântico Sul que emerge frente nas costas do Brasil, o arquipélago de Fernando de Noronha e o Atol das Rocas representam uma grande parte da superfície insular da região. Devido a suas águas ricas em nutrientes, o sítio é de suma importância para a alimentação e reprodução de atuns, tiburones, tartarugas do mar e mamíferos marinhos. Estas ilhas abrigam a maior concentração de aves marinhas tropicais do Atlântico Ocidental. A baía dos Golfinhos é famosa por sua excepcional população de delfins e, durante a maré baixa, o Atol das Rocas oferece uma espetacular paisagem, salpicado de lagunas e poças repletas de peixes.",
+		"anoInscricao": 2001,
+		"patrimonioMundialNatural": true,
+		"patrimonioMundialCultural": false,
+		"cidades": [
+			{
+				"id": 40,
+				"municipio": "Fernando de Noronha",
+				"estado": "Pernambuco"
+			},
+			{
+				"id": 10,
+				"municipio": "Natal",
+				"estado": "Rio Grande do Norte"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 9,
+		"sitio": "Parques Nacionais de Chapada dos Veadeiros e das Emas",
+		"descricao": "Estes parques abrigam a flora, fauna e habitats característicos do “cerrado”, um dos ecossistemas tropicais mais antigos e diversificados do mundo. Os dois sítios protegidos tem servido de refúgio durante milênios a numerosas espécies nos períodos de mudança climática e se estima que serão indispensáveis para o mantimento da biodiversidade.",
+		"anoInscricao": 2001,
+		"patrimonioMundialNatural": true,
+		"patrimonioMundialCultural": false,
+		"cidades": [],
+		"turismoEcologicos": [
+			{
+				"id": 6,
+				"bioma": "Cerrado",
+				"clima": "Tropical sazonal",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 36,
+						"bioma": "Mata Atlântica",
+						"clima": "Tropical úmido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 4,
+								"bioma": "Pampa",
+								"clima": "Temperado",
+								"aguaTermal": false,
+								"praiaFluvial": false,
+								"praia": true,
+								"quedaDagua": false,
+								"gruta": false,
+								"lago": true,
+								"turismoEcologicoOut": []
+							}
+						]
+					},
+					{
+						"id": 43,
+						"bioma": "Caatinga",
+						"clima": "Tropical Semiárido",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": true,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 11,
+		"sitio": "Parque Nacional do Pantanal Matogrossence",
+		"descricao": "A reserva do Pantanal compreende quatro zonas protegidas, com uma superfície total de 187.818 hectares. Situada no extremo sul oriental do Estado de Mato Grosso, esta zona de conservação abarca as cabeceiras dos rios Cuiabá e Paraguai. O sítio representa o 1,3% do pantanal brasileiro, um dos ecossistemas de umidade de água doce mais vastos do mundo. A abundância e a diversidade de sua vegetação e fauna são as características mais espetaculares da reserva.",
+		"anoInscricao": 2000,
+		"patrimonioMundialNatural": true,
+		"patrimonioMundialCultural": false,
+		"cidades": [],
+		"turismoEcologicos": [
+			{
+				"id": 7,
+				"bioma": "Pantanal",
+				"clima": "Tropical continental",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": false,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 6,
+						"bioma": "Cerrado",
+						"clima": "Tropical sazonal",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": false,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							},
+							{
+								"id": 43,
+								"bioma": "Caatinga",
+								"clima": "Tropical Semiárido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 36,
+										"bioma": "Mata Atlântica",
+										"clima": "Tropical úmido",
+										"aguaTermal": true,
+										"praiaFluvial": true,
+										"praia": true,
+										"quedaDagua": true,
+										"gruta": true,
+										"lago": true,
+										"turismoEcologicoOut": [
+											{
+												"id": 4,
+												"bioma": "Pampa",
+												"clima": "Temperado",
+												"aguaTermal": false,
+												"praiaFluvial": false,
+												"praia": true,
+												"quedaDagua": false,
+												"gruta": false,
+												"lago": true,
+												"turismoEcologicoOut": []
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 12,
+		"sitio": "Parque Nacional do Iguaçu",
+		"descricao": "Igual ao parque nacional argentino colindante de mesmo nome, o Parque Nacional do Iguaçu brasileiro permite admirar uma das maiores cascadas e impressionantes do mundo, que tem uma largura de mais de 2.700 metros. O parque abriga numerosas espécies raras de flora e fauna em perigo de extinção como a ariranha e o tamanduá-bandeira. As nuvens de bruma das cascadas propiciam o desenvolvimento de uma vegetação exuberante.",
+		"anoInscricao": 1986,
+		"patrimonioMundialNatural": true,
+		"patrimonioMundialCultural": false,
+		"cidades": [
+			{
+				"id": 33,
+				"municipio": "Foz do Iguaçu",
+				"estado": "Paraná"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 13,
+		"sitio": "Centro Histórico de Diamantina",
+		"descricao": "Diamantina é uma cidade colonial engastada como uma pedra preciosa em um inóspito maciço montanhoso. É um testemunho da aventura dos mineradores de diamantes do século XVIII, assim como do influxo exercido pelas realizações culturais e artísticas do ser humano em seu marco de vida.",
+		"anoInscricao": 1999,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 2,
+				"municipio": "Diamantina",
+				"estado": "Minas Gerais"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 15,
+		"sitio": "Brasilia",
+		"descricao": "Construída ex nihilo no centro do país entre 1956 e 1960, Brasília é um rito de grande importância na história do urbanismo. O propósito de seus criadores, o urbanista Lúcio Costa e o arquiteto Oscar Niemeyer, foi que tudo refletisse um conceito harmonioso da cidade, desde o traçado dos bairros administrativos e residenciais, comparado a princípio com a silhueta de um pássaro até a simetria das construções. Os edifícios públicos assombram por seu aspecto audaz e inovador.",
+		"anoInscricao": 1987,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 30,
+				"municipio": "Brasilia",
+				"estado": "Goiás"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 16,
+		"sitio": "Conjunto Arquitetônico da Pampulha",
+		"descricao": "O Conjunto Arquitetônico da Pampulha era o centro de um projeto de cidade-jardim visionário criado em 1940 em Belo Horizonte, capital de Minas Gerais. Concebido em torno de um lago artificial, este centro cultural e de lazer inclui um casino, um salão de baile, o Iate Clube e a igreja São Francisco de Assis. Os edifícios foram concebidos pelo arquiteto Oscar Niemeyer, em colaboração com artistas inovadores",
+		"anoInscricao": 2016,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 18,
+				"municipio": "Belo Horizonte",
+				"estado": "Minas Gerais"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 17,
+		"sitio": "Santuário de Bom Jesus de Matosinhos",
+		"descricao": "Construído na segunda metade do século XVII, este santuário está situado na cidade de Congonhas do Campo no Estado de Minas Gerais, perto de Belo Horizonte. Consta de uma igreja com uma suntuosa decoração interior ao estilo rococó italiano, uma escada ornada com estátuas de profetas e sete capelas de uma via cruzis com grupos escultóricos policromos de Aleijadinho, que são obras primas de uma arte barroca, expressiva e de grande originalidade.",
+		"anoInscricao": 1985,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 19,
+				"municipio": "Congonhas do Campo",
+				"estado": "Minas Gerais"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 20,
+		"sitio": "Centro Histórico de Olinda",
+		"descricao": "A história desta cidade, fundada pelos portugueses em 1535, está vinculada à indústria da cana de açúcar. Teve que ser reconstruída no século XVII após seu saque pelos holandeses e seu tecido urbano data essencialmente do século XVIII. A arquitetura equilibrada de seus edifícios e jardins, assim como a de seus vinte templos barrocos, conventos e numerosos “passos” (capelas), dá a esta cidade um encanto muito especial.",
+		"anoInscricao": 1982,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 28,
+				"municipio": "Olinda",
+				"estado": "Pernambuco"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 21,
+		"sitio": "Centro Histórico de Salvador",
+		"descricao": "Primeira capital do Brasil (1549-1763), Salvador tem sido um ponto de confluência de culturas europeias, africanas e ameríndias. Em 1558 se criou nela um dos primeiros mercados de escravos do Brasil e do Novo Mundo, para suprir as plantações de cana de açúcar. A cidade tem conservado numerosos edifícios renascentistas de qualidade excepcional. As casas de cores vivas, magnificamente estucadas a princípio, são características da cidade velha.",
+		"anoInscricao": 1985,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 27,
+				"municipio": "Salvador",
+				"estado": "Bahia"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 22,
+		"sitio": "Parque Nacional da Serra da Capivara",
+		"descricao": "Os numerosos refúgios escavados nas rochas do parque nacional da Serra de Capivara estão decorados com pinturas rupestres. Algumas delas datam de 25.000 anos atrás e constituem um testemunho excepcional de uma das mais antigas comunidades humanas de América do Sul.",
+		"anoInscricao": 1991,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 38,
+				"municipio": "São Raimundo Nonato",
+				"estado": "Piauí"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 26,
+		"sitio": "Ruinas de São Miguel das Missões",
+		"descricao": "No coração mesmo da selva tropical estão localizadas as ruínas de cinco missões jesuítas: San Miguel das Missões (Brasil), San Ignacio Miní, Santa Ana, Nossa Senhora de Loreto e Santa Maria, a Maior (Argentina). Construídas em território guarani durante os séculos XVII e XVIII, estas missões se caracterizam por seu traçado específico e seu desigual estado de conservação..",
+		"anoInscricao": 1983,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 25,
+				"municipio": "São Miguel das Missões",
+				"estado": "Rio Grande do Sul"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 29,
+		"sitio": "Paraty e Ilha Grande – Cultura e Biodiversidade",
+		"descricao": "Localizada entre a serra da Bocaina e o Oceano Atlântico, essa paisagem cultural inclui o centro histórico de Paraty, uma das cidades costeiras mais bem preservadas do Brasil, além de quatro áreas naturais protegidas da Mata Atlântica brasileira, uma das cinco regiões de maior biodiversidade do mundo. Paraty é o lar de uma diversidade impressionante de espécies, algumas das quais estão ameaçadas, como a onça-pintada (Panthera onca), a queixada (Tayassu pecari) e várias espécies de primatas, incluindo o macaco-aranha (Brachyteles arachnoides), um primata endêmico que é emblemático da grande biodiversidade da região. No final do século XVII, Paraty foi o ponto final do Caminho do Ouro, ao longo do qual o ouro foi enviado para a Europa. Seu porto também serviu como ponto de entrada para ferramentas e escravos africanos, enviados para trabalhar nas minas. Um sistema de defesa foi construído para proteger a riqueza do porto e da cidade. O centro histórico de Paraty manteve seu plano do século XVIII e grande parte de sua arquitetura colonial que data do século XVIII e início do século XIX.",
+		"anoInscricao": 2019,
+		"patrimonioMundialNatural": true,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 39,
+				"municipio": "Parati",
+				"estado": "Rio de Janeiro"
+			},
+			{
+				"id": 23,
+				"municipio": "Angra dos Reis",
+				"estado": "Rio de Janeiro"
+			}
+		],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 32,
+		"sitio": "Cidade Histórica de Ouro Preto",
+		"descricao": "Fundada no final do século XVII, a cidade de Ouro Preto foi o ponto de convergência dos mineradores de ouro e o centro da exploração de minas auríferas no Brasil do século XVIII. A cidade declinou com o esgotamento de suas minas a princípios do século XIX, todavia subsistem muitas igrejas, pontes e fontes que testemunham seu passado esplendor e o talento excepcional do escultor barroco Antonio Francisco Lisboa, “Aleijadinho”.",
+		"anoInscricao": 1980,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 57,
+				"municipio": "Ouro Preto",
+				"estado": "Minas Gerais"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 42,
+		"sitio": "Centro Histórico de São Luís",
+		"descricao": "Fundada pelos franceses e ocupada pelos holandeses antes de cair sob a dominação dos portugueses, esta histórica cidade tem conservado seu centro histórico do século XVII, caracterizado pelo traçado retangular de suas ruas. Devido a seu estancamento econômico a princípios do século XX, São Luis tem conservado um grande número de edifícios históricos de qualidade excepcional que fazem dela um exemplo de cidade colonial ibérica única em seu gênero. ",
+		"anoInscricao": 1997,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 14,
+				"municipio": "São Luiz",
+				"estado": "Maranhão"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 44,
+		"sitio": "Centro Histórico de Goiás",
+		"descricao": "Goiás constitui um testemunho da ocupação e colonização do interior de Brasil nos séculos XVIII e XIX. Seu desenho urbano é característico das cidades mineras de desenvolvimento orgânico, adaptadas a seu entorno. Ainda que modesta, a arquitetura de seus edifícios públicos e privados apresentam uma grande harmonia, que é fruto, entre outros fatores, de um emprego coerente de materiais e técnicas locais.",
+		"anoInscricao": 2001,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 35,
+				"municipio": "Cidade de Goiás",
+				"estado": "Goiás"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 46,
+		"sitio": "Cais do Valongo e da Imperatriz",
+		"descricao": "Porto antigo da cidade do Rio de Janeiro em que o antigo cais de pedra foi construído para o desembarque de africanos escravizados que chegaram ao continente sul-americano a partir de 1811.",
+		"anoInscricao": 2017,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 31,
+				"municipio": "Rio de Janeiro",
+				"estado": "Rio de Janeiro"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 47,
+		"sitio": "Sítio Roberto Burle Marx",
+		"descricao": "Localizado a oeste do Rio de Janeiro, este sítio mostra o projeto de sucesso realizado há mais de 40 anos pelo artista e paisagista Roberto Burle Marx (1909-1994), que buscou criar um 'obra de arte viva' e um 'laboratório paisagístico' com base na vegetação nativa e inspirando-se nas ideias do movimento modernista. Iniciado em 1949, este jardim paisagístico representa os elementos essenciais do que se tornou o estilo único de Burle Marx, cuja influência foi notável na criação de muitos jardins modernos em todo o mundo. O jardim se caracteriza por suas formas sinuosas, pela exuberância de suas extensas plantações, pelo arranjo arquitetônico de sua vegetação, pelo uso de espécies botânicas tropicais e pela incorporação de elementos artísticos típicos do folclore popular. No final da década de 1960, este sítio abrigava a coleção mais representativa de plantas nativas brasileiras, juntamente com numerosos espécimes raros da flora tropical. As 3.500 espécies de plantas plantadas no jardim crescem em harmonia com a vegetação nativa da região, essencialmente composta por manguezais, matas latifoliadas úmidas 'restingas' e Mata Atlântica. O sítio é uma amostra viva do processo de expressão nos factos de uma concepção ecológica da estética, que integrou também a cooperação social na sua concretização por ser este o elemento básico fundamental para a preservação do património ambiental e cultural. É o primeiro jardim tropical moderno a ser inscrito na Lista do Patrimônio Mundial.",
+		"anoInscricao": 2021,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 31,
+				"municipio": "Rio de Janeiro",
+				"estado": "Rio de Janeiro"
+			}
+		],
+		"turismoEcologicos": []
+	},
+	{
+		"id": 59,
+		"sitio": "Complexo de Conservação da Amazônia Central",
+		"descricao": "Este sítio de mais de seis milhões de hectares é a zona protegida mais vasta da bacia do Amazonas e uma das regiões do planeta da mais rica biodiversidade. Compõe o Parque Nacional do Jaú, o Parque Nacional de Anavilhanas, a Reserva de Desenvolvimento Sustentável Amanã, área de demonstração da Reserva de Desenvolvimento Sustentável Mamirauá. Oferece uma mostra significativa de ecossistemas de várzea, bosques de igapó, lagos e rios que formam um mosaico aquático onde vive a maior variedade de espécies de peixes elétricos do mundo. Além disso, o sítio abriga outras importantes espécies animais em risco de extinção, por exemplo o arapaima gigante, o manati do Amazonas, o caimán negro e dois tipos de delfins fluviais.",
+		"anoInscricao": 2000,
+		"patrimonioMundialNatural": true,
+		"patrimonioMundialCultural": false,
+		"cidades": [],
+		"turismoEcologicos": [
+			{
+				"id": 37,
+				"bioma": "Amazônia",
+				"clima": "Equatorial",
+				"aguaTermal": false,
+				"praiaFluvial": false,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 6,
+						"bioma": "Cerrado",
+						"clima": "Tropical sazonal",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": false,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 36,
+								"bioma": "Mata Atlântica",
+								"clima": "Tropical úmido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 4,
+										"bioma": "Pampa",
+										"clima": "Temperado",
+										"aguaTermal": false,
+										"praiaFluvial": false,
+										"praia": true,
+										"quedaDagua": false,
+										"gruta": false,
+										"lago": true,
+										"turismoEcologicoOut": []
+									}
+								]
+							},
+							{
+								"id": 43,
+								"bioma": "Caatinga",
+								"clima": "Tropical Semiárido",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": true,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 36,
+										"bioma": "Mata Atlântica",
+										"clima": "Tropical úmido",
+										"aguaTermal": true,
+										"praiaFluvial": true,
+										"praia": true,
+										"quedaDagua": true,
+										"gruta": true,
+										"lago": true,
+										"turismoEcologicoOut": [
+											{
+												"id": 4,
+												"bioma": "Pampa",
+												"clima": "Temperado",
+												"aguaTermal": false,
+												"praiaFluvial": false,
+												"praia": true,
+												"quedaDagua": false,
+												"gruta": false,
+												"lago": true,
+												"turismoEcologicoOut": []
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 7,
+						"bioma": "Pantanal",
+						"clima": "Tropical continental",
+						"aguaTermal": true,
+						"praiaFluvial": true,
+						"praia": false,
+						"quedaDagua": true,
+						"gruta": true,
+						"lago": true,
+						"turismoEcologicoOut": [
+							{
+								"id": 6,
+								"bioma": "Cerrado",
+								"clima": "Tropical sazonal",
+								"aguaTermal": true,
+								"praiaFluvial": true,
+								"praia": false,
+								"quedaDagua": true,
+								"gruta": true,
+								"lago": true,
+								"turismoEcologicoOut": [
+									{
+										"id": 36,
+										"bioma": "Mata Atlântica",
+										"clima": "Tropical úmido",
+										"aguaTermal": true,
+										"praiaFluvial": true,
+										"praia": true,
+										"quedaDagua": true,
+										"gruta": true,
+										"lago": true,
+										"turismoEcologicoOut": [
+											{
+												"id": 4,
+												"bioma": "Pampa",
+												"clima": "Temperado",
+												"aguaTermal": false,
+												"praiaFluvial": false,
+												"praia": true,
+												"quedaDagua": false,
+												"gruta": false,
+												"lago": true,
+												"turismoEcologicoOut": []
+											}
+										]
+									},
+									{
+										"id": 43,
+										"bioma": "Caatinga",
+										"clima": "Tropical Semiárido",
+										"aguaTermal": true,
+										"praiaFluvial": true,
+										"praia": true,
+										"quedaDagua": true,
+										"gruta": true,
+										"lago": true,
+										"turismoEcologicoOut": [
+											{
+												"id": 36,
+												"bioma": "Mata Atlântica",
+												"clima": "Tropical úmido",
+												"aguaTermal": true,
+												"praiaFluvial": true,
+												"praia": true,
+												"quedaDagua": true,
+												"gruta": true,
+												"lago": true,
+												"turismoEcologicoOut": [
+													{
+														"id": 4,
+														"bioma": "Pampa",
+														"clima": "Temperado",
+														"aguaTermal": false,
+														"praiaFluvial": false,
+														"praia": true,
+														"quedaDagua": false,
+														"gruta": false,
+														"lago": true,
+														"turismoEcologicoOut": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 61,
+		"sitio": "Reservas de Mata Atlântica do Descobrimento",
+		"descricao": "As reservas da Costa do Descobrimento estão situadas entre os Estados de Bahia e Espírito Santo. São oito zonas protegidas, separadas entre si , que somam 112.000 hectares de mata atlântica e arbustos associados “restingas”. Os bosques úmidos da costa atlântica do Brasil possuem a biodiversidade mais rica do planeta. O sitio abriga uma ampla gama de espécies endêmicas e ilustra um modelo de evolução de grande interesse para a ciência e a conservação do meio ambiente.",
+		"anoInscricao": 1999,
+		"patrimonioMundialNatural": true,
+		"patrimonioMundialCultural": false,
+		"cidades": [],
+		"turismoEcologicos": [
+			{
+				"id": 36,
+				"bioma": "Mata Atlântica",
+				"clima": "Tropical úmido",
+				"aguaTermal": true,
+				"praiaFluvial": true,
+				"praia": true,
+				"quedaDagua": true,
+				"gruta": true,
+				"lago": true,
+				"turismoEcologicoOut": [
+					{
+						"id": 4,
+						"bioma": "Pampa",
+						"clima": "Temperado",
+						"aguaTermal": false,
+						"praiaFluvial": false,
+						"praia": true,
+						"quedaDagua": false,
+						"gruta": false,
+						"lago": true,
+						"turismoEcologicoOut": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 62,
+		"sitio": "Praça de São Francisco",
+		"descricao": "A praça de São Francisco na cidade de São Cristovão forma um quadrilátero a céu aberto rodeado de imponentes edifícios, como a igreja e convento de São Francisco, a igreja e a Santa Casa da Misericórdia, o palácio provincial e suas moradias associadas de diferentes períodos históricos. Este conjunto monumental, unindo as casas dos séculos XVIII e XIX que o rodeiam, criam uma paisagem urbana reflexo da história da cidade desde suas origens. O complexo franciscano é um exemplo da arquitetura típica desenvolvida por esta ordem religiosa no nordeste de Brasil",
+		"anoInscricao": 2010,
+		"patrimonioMundialNatural": false,
+		"patrimonioMundialCultural": true,
+		"cidades": [
+			{
+				"id": 60,
+				"municipio": "São Cristovão",
+				"estado": "Sergipe"
+			}
+		],
+		"turismoEcologicos": []
+	}
+]
